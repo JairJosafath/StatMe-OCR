@@ -1,0 +1,1 @@
+const ProfileInfo = ({ user }) => {};

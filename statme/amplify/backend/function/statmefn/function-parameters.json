@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "auth": {
+      "statme94705f29": [
+        "create",
+        "read",
+        "update"
+      ]
+    },
+    "storage": {
+      "s384335ac6": [
+        "create",
+        "read",
+        "update"
+      ]
+    }
+  },
+  "lambdaLayers": [
+    {
+      "type": "ExternalLayer",
+      "arn": "arn:aws:lambda:us-east-1:852731538992:layer:sharpandtess:1"
+    },
+    {
+      "type": "ExternalLayer",
+      "arn": "arn:aws:lambda:us-east-1:852731538992:layer:tesseract:1"
+    }
+  ]
+}

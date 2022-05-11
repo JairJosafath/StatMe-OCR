@@ -1,0 +1,33 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-statme-dev-120817-authRole",
+      "UnauthRoleArn": "arn:aws:iam::852731538992:role/amplify-statme-dev-120817-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::852731538992:role/amplify-statme-dev-120817-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-statme-dev-120817-deployment",
+      "UnauthRoleName": "amplify-statme-dev-120817-unauthRole",
+      "StackName": "amplify-statme-dev-120817",
+      "StackId": "arn:aws:cloudformation:us-east-1:852731538992:stack/amplify-statme-dev-120817/e5d651f0-89ca-11ec-b269-1270b8286e1b",
+      "AmplifyAppId": "d3wcetrlrpczg"
+    },
+    "categories": {
+      "auth": {
+        "statme94705f29": {},
+        "true": {}
+      },
+      "function": {
+        "statmefn": {
+          "deploymentBucketName": "amplify-statme-dev-120817-deployment",
+          "s3Key": "amplify-builds/statmefn-774276304c4c41663378-build.zip"
+        }
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d3wcetrlrpczg",
+          "type": "manual"
+        }
+      }
+    }
+  }
+}
