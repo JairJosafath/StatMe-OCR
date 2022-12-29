@@ -1,4 +1,3 @@
-import awsmobile from "../aws-exports";
 import { Storage } from "aws-amplify";
 import axios from "axios";
 

@@ -39,6 +39,7 @@ export const useHomeHook = () => {
         return data;
       })
       .catch((err) => {
+        console.log(err, "the err");
         setIsErr(true);
       });
 

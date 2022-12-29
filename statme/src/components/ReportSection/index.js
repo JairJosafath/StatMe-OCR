@@ -1,14 +1,11 @@
 import Button from "rsuite/esm/Button";
 import FlexboxGridItem from "rsuite/esm/FlexboxGrid/FlexboxGridItem";
 import FlexboxGrid from "rsuite/FlexboxGrid";
-import Grid from "rsuite/Grid";
 import Input from "rsuite/Input";
 import List from "rsuite/List";
 import { AiFillHeart } from "react-icons/ai";
-import { useState, useEffect, useRef } from "react";
-import InputPicker from "rsuite/esm/InputPicker";
+import { useRef } from "react";
 import ListItem from "rsuite/esm/List/ListItem";
-import About from "../../containers/About";
 import { AiOutlineLoading } from "react-icons/ai";
 
 const ReportSummary = ({ data, type, isLoading, isError }) => {

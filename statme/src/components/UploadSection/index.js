@@ -53,8 +53,6 @@ const UploadSection = ({ upload, isLoading }) => {
         ref={ref}
         onChange={setValue}
         action=""
-
-        // style={{ display: "block" }}
       >
         <Button style={styles}>
           <BsCameraFill style={{ fontSize: 80 }} />
